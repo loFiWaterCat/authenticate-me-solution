@@ -20,6 +20,9 @@ gem "rack-cors"
 
 gem "bcrypt"
 gem "jbuilder"
+gem "railties"
+gem "faker"
+gem "pry-rails"
 
 group :development, :test do
   gem "byebug", platforms: %i[ mri mingw x64_mingw ]
@@ -30,7 +33,6 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
   gem "annotate"
-  gem "pry-rails"
   gem "better_errors"
   gem "binding_of_caller"
 end
